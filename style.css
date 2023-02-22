@@ -44,20 +44,12 @@ button {
 }
 
 button svg {
-  width: clamp(3.2rem, 2rem + 12vw, 6.4rem );
+  width: clamp(3.2rem, 2rem + 12vw, 6.4rem);
 }
-
 
 main {
   align-self: end;
   justify-self: center;
-}
-
-footer {
-  align-self: end;
-  justify-self: end;
-
-  padding: 0 4rem 3.2rem 0;
 }
 
 #timer {
@@ -69,6 +61,7 @@ footer {
 
 #controls {
   background-color: var(--bg-primary-light);
+
   display: flex;
   align-items: center;
   justify-content: center;
@@ -76,6 +69,13 @@ footer {
 
   border-radius: 9999px;
 
-  width: clamp(10rem, 10rem + 30vw, 22.8rem);  /* minimo de largura, padrao de largura, maximo de largura    */
-  height: clamp(8rem, 5rem + 10vw, 10.8rem);
+  width: clamp(10rem, 10rem + 30vw, 22.8rem);
+  height: clamp(8rem, 5rem + 10vw, 10.8rem)
+}
+
+footer {
+  align-self: end;
+  justify-self: end;
+
+  padding: 0 4rem 3.2rem 0;
 }
